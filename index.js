@@ -1,3 +1,12 @@
 console.log("hey");
 const x="It s been while";
 document.getElementById("p").textContent=x;
+const y=45;
+const z=20;
+console.log(y+z);
+console.log(y-z);
+console.log(y*z);
+console.log(y/z);
+const t=window.prompt("What s your name");
+console.log(t);
+document.getElementById("p").textContent=t;
