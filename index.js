@@ -14,7 +14,7 @@ document.getElementById("p").textContent=t;
 //Use some lop with logic
 const z=0;
 for(const x=0;x<7;x++){
-    z+=x;
+    z = z+x;
 }
 console.log("The total is "+x);
 while(x=!0){
