@@ -21,4 +21,3 @@ while(x=!0){
     console.log("X egal =",x);
     x=0;
 }
-//switch
