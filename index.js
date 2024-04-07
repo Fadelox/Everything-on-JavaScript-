@@ -8,7 +8,7 @@ console.log(y-z);
 console.log(y*z);
 console.log(y/z);
 */
-const t=window.prompt("What s your name");
+/*const t=window.prompt("What s your name");
 console.log(t);
 document.getElementById("p").textContent=t;
 //Use some lop with logic
@@ -21,4 +21,13 @@ while(x=!0){
     console.log("X egal =",x);
     x=0;
 }
-//switch
+*/
+let pi = 3.14;
+let radius;
+let circurmference;
+radius = window.prompt("write numbeer");
+circurmference=radius *2*pi;
+const p= circurmference;
+document.getElementById("p").textContent=p;
+
+
