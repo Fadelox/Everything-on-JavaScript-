@@ -21,7 +21,7 @@ while(x=!0){
     console.log("X egal =",x);
     x=0;
 }
-*/
+
 let pi = 3.14;
 let radius;
 let circurmference;
@@ -29,5 +29,5 @@ radius = window.prompt("write numbeer");
 circurmference=radius *2*pi;
 const p= circurmference;
 document.getElementById("p").textContent=p;
-
+*/
 
