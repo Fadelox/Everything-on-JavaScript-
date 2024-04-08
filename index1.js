@@ -1,5 +1,8 @@
-let fruits=["Apfel","BAnana","Erdbeern","Kartofeln"];
-fruits[0]="Nie"
+//Spread operator use to combine arrays
 
-let x=fruits.indexOf("BAnana");
+
+let fruits=["Apfel","BAnana","Erdbeern","Kartofeln"];
+
+
+let x=[...fruits,...fruits];
 console.log(x);
