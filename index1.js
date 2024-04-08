@@ -1,9 +1,7 @@
-// .map()  accept call back and applies a fucnt on every elment of an array
-let date=["2000-1-10","2000-2-20","200-3-30"];
-const dt=date.map(format);
-console.log(dt);
-
-function format(elment){
-    const f=elment.split("-");
-    return f[2]+"/"+f[1]+"/"+f[0];
+//.filter()  filter each element from array to an other array
+let ages=[12,78,55,45,26];
+const yg=ages.filter(ftr);
+console.log(yg);
+function ftr(elment){
+    return elment<=45;
 }
