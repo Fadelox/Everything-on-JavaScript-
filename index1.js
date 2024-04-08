@@ -1,10 +1,11 @@
+//Call back wir verwenden das wenn ein function verspatung ist oder nicht fonctioniert oder mehr wollen wir es nach eines verwenden
+calcul(Bieten,8,9);
+function calcul(callback,x,y){
+    let r=x+y;
+    callback(r);
 
-let total=0;
-function getnbr(...nbrs){
-    for(let nbr of nbrs){
-        total +=nbr;
-    }
-    return total;
 }
-document.getElementById("choix").textContent=getnbr(1,2,3,4,5,6);
+function Bieten(x){
+    document.getElementById('choix').textContent=x;
 
+}
