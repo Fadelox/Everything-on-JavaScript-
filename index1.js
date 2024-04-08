@@ -1,11 +1,16 @@
-//Call back wir verwenden das wenn ein function verspatung ist oder nicht fonctioniert oder mehr wollen wir es nach eines verwenden
-calcul(Bieten,8,9);
-function calcul(callback,x,y){
-    let r=x+y;
-    callback(r);
+//foreach provied element, index , array to call back
 
+let nbrs=[1,2,3,4,5,6];
+nbrs.forEach(zweifach);
+
+nbrs.forEach(bieten);
+
+
+
+function zweifach(element,index,array){
+    array[index]=element*2;
 }
-function Bieten(x){
-    document.getElementById('choix').textContent=x;
+function bieten(element){
+    console.log(element);
 
 }
