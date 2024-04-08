@@ -1,8 +1,10 @@
-//Spread operator use to combine arrays
 
+let total=0;
+function getnbr(...nbrs){
+    for(let nbr of nbrs){
+        total +=nbr;
+    }
+    return total;
+}
+document.getElementById("choix").textContent=getnbr(1,2,3,4,5,6);
 
-let fruits=["Apfel","BAnana","Erdbeern","Kartofeln"];
-
-
-let x=[...fruits,...fruits];
-console.log(x);
