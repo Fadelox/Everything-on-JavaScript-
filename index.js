@@ -215,5 +215,11 @@ const p1={
 }
 p1.all();
 console.log(p1.name,p1.age);
+//this   we use it for gain time we write it place of the name of the object where we are in 
+const div={
+    lname:"fadelox",
+    call:function() {console.log(this.lname)},
+}
+div.call();
 */
 

@@ -1,6 +1,11 @@
-//this   we use it for gain time we write it place of the name of the object where we are in 
-const div={
-    lname:"fadelox",
-    call:function() {console.log(this.lname)},
+//constructors  method use to define properties and method of an object 
+function Cars(name,type,model,hores){
+    this.name=name;
+    this.type=type;
+    this.model=model;
+    this.hores=hores;
+    this.dispo=function() {console.log("Still one")};
 }
-div.call();
+const c1=new Cars("BMW","A4",2009,788,);
+console.log(c1.name);
+c1.dispo();
