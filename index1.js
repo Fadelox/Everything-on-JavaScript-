@@ -1,21 +1,10 @@
-//super is used for superclass the ihertance class we shoud write super danach chose the method or the propoties that u want to use
-class first{
-    constructor(name,typ){
-        this.name=name;
-        this.typ=typ;
-    }
-    model(mode){
-        console.log('it s model '+this.mode);
-    }
+// DESTRUCTURING  use it to extract value from arrays or object then assign them to a varible
+const p1=[1,2,3,4,5,6];
+const [h1,h2,h3]=p1;
+console.log(h3);
+const p2={
+    f:1,
+    f2:2,
 }
-class Person extends first{
-    constructor(name,typ,mode){
-        super(name,typ);
-        this.mode=mode;
-    }
-    do(){
-        super.model(this.mode);}
-}
-const p1=new Person('fadel',2,455);
-p1.model(this.mode);
-
+const {f,f2}=p2;
+console.log(f);
