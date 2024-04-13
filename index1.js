@@ -1,17 +1,21 @@
-//inheritance allows a class to inherit prop and method of other class
-class me{
-    name='Fadel';
-    typo(){
-        console.log("He is "+this.type);
+//super is used for superclass the ihertance class we shoud write super danach chose the method or the propoties that u want to use
+class first{
+    constructor(name,typ){
+        this.name=name;
+        this.typ=typ;
+    }
+    model(mode){
+        console.log('it s model '+this.mode);
     }
 }
-class other extends me{
-    type='Gentil';
+class Person extends first{
+    constructor(name,typ,mode){
+        super(name,typ);
+        this.mode=mode;
+    }
+    do(){
+        super.model(this.mode);}
 }
-class others extends me{
-    type='Sucks';
-}
-const f1=new other();
-f1.typo();
-const f2=new others();
-f2.typo();
+const p1=new Person('fadel',2,455);
+p1.model(this.mode);
+
