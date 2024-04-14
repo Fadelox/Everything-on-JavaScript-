@@ -1,13 +1,7 @@
-//nested it s for object or array in other object 
-const Person={
-    name:'this',
-    last:55,
-    live:{
-        job:'pc',
-        age:45,
-        non:'doz',
-    },
-    mind:[55,55,55,55],
-}
-console.log(Person.live.age);
-console.log(Person.mind[2])
+//arrays of object 
+const All=[{name:'fadel',age:12},
+           {name:'youssef',age:15},
+           {name:'lalo',age:78},
+           {name:'yess',age:45},];
+
+console.log(All.reduce((a,e)=>a.age+e.age))
