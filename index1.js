@@ -1,10 +1,13 @@
-// DESTRUCTURING  use it to extract value from arrays or object then assign them to a varible
-const p1=[1,2,3,4,5,6];
-const [h1,h2,h3]=p1;
-console.log(h3);
-const p2={
-    f:1,
-    f2:2,
+//nested it s for object or array in other object 
+const Person={
+    name:'this',
+    last:55,
+    live:{
+        job:'pc',
+        age:45,
+        non:'doz',
+    },
+    mind:[55,55,55,55],
 }
-const {f,f2}=p2;
-console.log(f);
+console.log(Person.live.age);
+console.log(Person.mind[2])
